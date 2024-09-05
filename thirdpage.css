@@ -1,0 +1,59 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f0e6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #8b5e3c;
+    margin-bottom: 20px;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.india-map {
+    max-width: 100%;
+    border: 10px solid #8b5e3c;
+    border-radius: 15px;
+}
+
+.districts-box {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+    background-color: #fff7e6;
+    border: 2px solid #8b5e3c;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto; /* Center the box */
+    text-align: left;
+}
+
+.districts-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.districts-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.districts-box ul li {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.districts-box ul li:hover {
+    text-decoration: underline;
+}

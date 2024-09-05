@@ -1,0 +1,141 @@
+/* General Navbar Styling */
+.navbar {
+    background-color: #8B4513;
+    font-family: 'Merriweather', serif;
+   border-bottom: 2px solid #CD853F;
+    border-radius: 2px;
+   
+}
+
+.navbar-brand {
+    color: #FFF5EE; /* Seashell color for contrast */
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler {
+    border-color: #FFF5EE; /* Seashell color for contrast */
+}
+
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #FFF5EE; /* Seashell color for links */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: color 0.3s, background 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: #8B4513; /* Saddle Brown color on hover */
+    background-color: #FFF5EE; /* Seashell background on hover */
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item .nav-link.disabled {
+    color: #CD853F; /* Peru color for disabled links */
+    opacity: 0.7;
+}
+
+.form-inline .form-control {
+    background-color: #FFF5EE; /* Seashell input background */
+    border: 2px solid #CD853F; /* Peru border */
+    color: #8B4513; /* Saddle Brown text */
+}
+
+.form-inline .btn-outline-success {
+    color: #FFF5EE; /* Button text color */
+    border-color: #FFF5EE; /* Button border color */
+}
+
+.form-inline .btn-outline-success:hover {
+    color: #8B4513; /* Saddle Brown text on hover */
+    background-color: #FFF5EE; /* Seashell background on hover */
+    border-color: #8B4513; /* Saddle Brown border on hover */
+}
+
+/* Adding a traditional pattern to the navbar */
+.navbar {
+    background-image: url('hill1.png'); /* Use a pattern image reflecting culture or heritage */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/* General Carousel Styling */
+.carousel {
+    width: 1000px; /* Adjust carousel width */
+    height: 500px;
+    margin: auto; /* Center the carousel */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure images don't overflow */
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+    background-color: #8B4513; /* Saddle Brown for a heritage feel */
+    border-radius: 50%; /* Make indicators circular */
+    width: 12px;
+    height: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #FFF5EE; /* Highlight active indicator */
+}
+
+/* Carousel Images */
+.carousel-item img {
+    border-radius: 10px; /* Match border radius */
+    transition: transform 0.6s ease, opacity 0.6s ease; /* Smooth transition */
+}
+
+.carousel-item.active img {
+    transform: scale(1.05); /* Slight zoom effect */
+    opacity: 1; /* Full visibility */
+}
+
+.carousel-item-next img,
+.carousel-item-prev img {
+    transform: scale(1.02); /* Less zoom for previous/next slides */
+    opacity: 0.8; /* Slightly transparent */
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Circular controls */
+    padding: 10px; /* Increase size */
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken on hover */
+}
+
+/* Add smooth transition to the entire carousel */
+.carousel-inner {
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Optional: Caption Styling (if using captions) */
+.carousel-caption {
+    background-color: rgba(139, 69, 19, 0.7); /* Saddle Brown with transparency */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Merriweather', serif;
+    color: #FFF5EE;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
